@@ -46,11 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bibliotečni informacijski Sustav .cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Bibliotečni informacijski Sustav .Designer.cs">
-      <DependentUpon>Bibliotečni informacijski Sustav .cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs" />
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prikaz_knjiga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prikaz_knjiga.Designer.cs">
+      <DependentUpon>Prikaz_knjiga.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,8 +73,14 @@
     <Compile Include="Unos knjige.Designer.cs">
       <DependentUpon>Unos knjige.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Bibliotečni informacijski Sustav .resx">
-      <DependentUpon>Bibliotečni informacijski Sustav .cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prikaz_knjiga.resx">
+      <DependentUpon>Prikaz_knjiga.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

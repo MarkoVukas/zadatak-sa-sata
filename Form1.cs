@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Unos_knjige : Form
+    public partial class Form1 : Form
     {
-        public Unos_knjige()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Unos_knjige_Load(object sender, EventArgs e)
-        {
-
+            
         }
     }
 }
